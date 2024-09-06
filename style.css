@@ -5,6 +5,7 @@
 	padding: 0;
 	border: 0;
 	list-style: none;
+	text-decoration: inherit;
 }
 
 body {
@@ -16,6 +17,8 @@ body {
 	font-family: 'Montserrat';
 	flex-direction: column;
 	padding: 16px;
+	height: 100vh;
+	height: 100%;
 }
 
 .imgProfile {
@@ -77,4 +80,16 @@ body {
 	justify-content: center;
 	margin-top: 24px;
 	width: 60%;
+	gap: 8px;
+}
+
+footer img {
+	filter: invert(100%);
+	margin-top: 100%;
+}
+
+footer img:hover {
+	cursor: pointer;
+	transition: 0.2s;
+	transform: scale(1.1);
 }
